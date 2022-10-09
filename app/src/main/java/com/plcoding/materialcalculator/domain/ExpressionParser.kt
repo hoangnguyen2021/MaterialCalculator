@@ -3,7 +3,6 @@ package com.plcoding.materialcalculator.domain
 class ExpressionParser(
     private val calculation: String
 ) {
-
     fun parse(): List<ExpressionPart> {
         val result = mutableListOf<ExpressionPart>()
 
@@ -52,5 +51,4 @@ class ExpressionParser(
             )
         )
     }
-
 }

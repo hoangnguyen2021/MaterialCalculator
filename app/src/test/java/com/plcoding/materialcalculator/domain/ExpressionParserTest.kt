@@ -4,7 +4,6 @@ import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 
 class ExpressionParserTest {
-
     private lateinit var parser: ExpressionParser
 
     @Test
@@ -44,5 +43,4 @@ class ExpressionParserTest {
         )
         assertThat(expected).isEqualTo(actual)
     }
-
 }
